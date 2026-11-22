@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:crimson_plate_helm",
+  "components": [
+    "minecraft:gold_ingot",
+    "taintedmagic:crimson_plating",
+    "taintedmagic:crimson_cloth",
+    "taintedmagic:crimson_plating",
+    "minecraft:gold_ingot",
+    "taintedmagic:crimson_plating",
+    "taintedmagic:crimson_cloth",
+    "taintedmagic:crimson_plating"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "taintedmagic:praetor_armor"
+  },
+  "result": {
+    "id": "thaumaturge:crimson_praetor_helm"
+  }
+}

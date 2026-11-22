@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "equipment",
+  "input": "thaumaturge:crimson_robe_chest",
+  "material": "taintedmagic:voidsent_blood",
+  "result": {
+    "id": "thaumaturge:crimson_robe_chest",
+    "components": {
+      "taintedmagic:self_repair": 20
+    }
+  }
+}

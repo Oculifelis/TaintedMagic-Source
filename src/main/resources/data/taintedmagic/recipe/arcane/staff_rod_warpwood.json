@@ -1,0 +1,46 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "P": "thaumaturge:primordial_pearl",
+    "R": "taintedmagic:wand_rod_warpwood"
+  },
+  "pattern": [
+    "  P",
+    " R ",
+    "R  "
+  ],
+  "research": {
+    "entry": "taintedmagic:rod_warpwood_staff",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:staff_rod_warpwood"
+  },
+  "vis": 120
+}

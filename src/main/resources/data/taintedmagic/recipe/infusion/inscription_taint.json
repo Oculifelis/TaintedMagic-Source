@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 16
+    }
+  ],
+  "catalyst": "#taintedmagic:katanas",
+  "catalyst_patch": {
+    "taintedmagic:inscription": "taint"
+  },
+  "components": [
+    "thaumaturge:focus_1",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vitium"
+        }
+      }
+    },
+    "thaumaturge:jar_normal",
+    "thaumaturge:vishroom",
+    "thaumaturge:bottle_taint",
+    "thaumaturge:tainted_goo"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:inscription_taint"
+  }
+}

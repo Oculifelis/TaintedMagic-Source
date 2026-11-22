@@ -1,0 +1,77 @@
+{
+  "replace": false,
+  "values": {
+    "taintedmagic:crystal_blood": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 2
+      }
+    ],
+    "taintedmagic:warpwood_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 1
+      }
+    ],
+    "taintedmagic:stripped_warpwood_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:tenebrae",
+        "amount": 1
+      }
+    ],
+    "taintedmagic:warpwood_leaves": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 1
+      }
+    ],
+    "taintedmagic:warped_shard": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 1
+      }
+    ],
+    "taintedmagic:fluxed_shard": [
+      {
+        "aspect": "thaumaturge:vitium",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 1
+      }
+    ]
+  }
+}

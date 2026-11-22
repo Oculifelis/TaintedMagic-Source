@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 64
+    }
+  ],
+  "catalyst": "thaumaturge:primordial_pearl",
+  "components": [
+    "minecraft:nether_star",
+    "thaumaturge:crystal_aer",
+    "thaumaturge:crystal_aqua",
+    "thaumaturge:crystal_ignis",
+    "thaumaturge:crystal_ordo",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:crystal_terra"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:creation_shard"
+  },
+  "result": {
+    "id": "taintedmagic:creation_shard",
+    "count": 2
+  }
+}

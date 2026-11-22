@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "A": "thaumaturge:ingot_void",
+    "B": "thaumaturge:essentia_crystalizer",
+    "C": "#minecraft:logs"
+  },
+  "pattern": [
+    "  A",
+    " B ",
+    "C  "
+  ],
+  "research": {
+    "entry": "taintedmagic:crystal_dagger",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:crystal_dagger"
+  },
+  "vis": 85
+}

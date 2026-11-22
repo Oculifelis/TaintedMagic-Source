@@ -1,0 +1,51 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.cap_shadowcloth.title",
+  "parents": [
+    "taintedmagic:shadow_cloth",
+    "taintedmagic:cap_cloth"
+  ],
+  "column": -2,
+  "row": 5,
+  "icons": [
+    "taintedmagic:wand_cap_shadowcloth"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.cap_shadowcloth.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.cap_shadowcloth.stage_1",
+      "recipes": [
+        "taintedmagic:arcane/wand_cap_shadowcloth"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,55 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 32
+    }
+  ],
+  "catalyst": "taintedmagic:warpwood_log",
+  "components": [
+    "thaumaturge:primordial_pearl",
+    "taintedmagic:shadowmetal_ingot",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "thaumaturge:ingot_void",
+    "thaumaturge:brain",
+    "taintedmagic:shadowmetal_ingot",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:rod_warpwood"
+  },
+  "result": {
+    "id": "taintedmagic:wand_rod_warpwood"
+  }
+}

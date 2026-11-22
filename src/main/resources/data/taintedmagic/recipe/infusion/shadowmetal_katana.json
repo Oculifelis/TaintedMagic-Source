@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 46
+    }
+  ],
+  "catalyst": "taintedmagic:shadowmetal_sword",
+  "components": [
+    "minecraft:obsidian",
+    "taintedmagic:shadowmetal_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:emerald",
+    "minecraft:iron_ingot",
+    "taintedmagic:shadowmetal_ingot",
+    "minecraft:obsidian",
+    "taintedmagic:shadowmetal_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:emerald",
+    "minecraft:iron_ingot",
+    "taintedmagic:shadowmetal_ingot"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "taintedmagic:shadowmetal_katana"
+  },
+  "result": {
+    "id": "taintedmagic:shadowmetal_katana"
+  }
+}

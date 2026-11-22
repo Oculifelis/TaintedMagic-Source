@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:void_helm",
+  "components": [
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:emerald"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "taintedmagic:void_fortress_armor"
+  },
+  "result": {
+    "id": "taintedmagic:void_fortress_helmet"
+  }
+}

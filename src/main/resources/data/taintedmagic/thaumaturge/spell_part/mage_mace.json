@@ -1,0 +1,32 @@
+{
+  "aspect": "thaumaturge:instrumentum",
+  "behavior": {
+    "type": "taintedmagic:mace",
+    "damage_per_power": 3.0,
+    "knockback": 0.6,
+    "bloodlust_heal": 0.25
+  },
+  "color": 10129280,
+  "complexity": 3,
+  "fx": "thaumaturge:pebble",
+  "icon": "taintedmagic:textures/foci/mage_mace.png",
+  "research": {
+    "entry": "taintedmagic:focus_mage_mace"
+  },
+  "settings": [
+    {
+      "key": "power",
+      "min": 1,
+      "max": 5,
+      "default": 1,
+      "complexity": 3.0
+    },
+    {
+      "key": "bloodlust",
+      "min": 0,
+      "max": 1,
+      "default": 0,
+      "complexity": 2.0
+    }
+  ]
+}

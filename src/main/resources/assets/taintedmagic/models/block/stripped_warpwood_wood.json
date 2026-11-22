@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "taintedmagic:block/stripped_warpwood_log",
+    "side": "taintedmagic:block/stripped_warpwood_log"
+  }
+}

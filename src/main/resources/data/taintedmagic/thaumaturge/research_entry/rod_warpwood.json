@@ -1,0 +1,55 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.rod_warpwood.title",
+  "parents": [
+    "taintedmagic:warpwood",
+    "thaumaturge:rod_silverwood"
+  ],
+  "column": 3,
+  "row": 5,
+  "icons": [
+    "taintedmagic:wand_rod_warpwood"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.rod_warpwood.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.rod_warpwood.stage_1",
+      "recipes": [
+        "taintedmagic:infusion/wand_rod_warpwood"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 2
+    }
+  ],
+  "complexity": 3
+}

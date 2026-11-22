@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "A": "taintedmagic:shadowmetal_ingot",
+    "B": "minecraft:stick"
+  },
+  "result": {
+    "id": "taintedmagic:shadowmetal_pickaxe",
+    "count": 1
+  }
+}

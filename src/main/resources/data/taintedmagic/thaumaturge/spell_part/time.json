@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:ordo",
+  "behavior": {
+    "type": "taintedmagic:time_shift",
+    "ticks": 12000
+  },
+  "color": 15259792,
+  "complexity": 4,
+  "fx": "thaumaturge:ward",
+  "icon": "taintedmagic:textures/foci/time.png",
+  "research": {
+    "entry": "taintedmagic:focus_time"
+  },
+  "settings": [],
+  "max_per_spell": 1,
+  "vis": 20.0
+}

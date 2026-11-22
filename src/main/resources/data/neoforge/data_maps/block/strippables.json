@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": {
+    "taintedmagic:warpwood_log": "taintedmagic:stripped_warpwood_log",
+    "taintedmagic:warpwood_wood": "taintedmagic:stripped_warpwood_wood"
+  }
+}

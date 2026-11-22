@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 56
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 40
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 10
+    }
+  ],
+  "catalyst": "thaumaturge:girdle_fancy",
+  "components": [
+    "thaumaturge:primordial_pearl",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadowmetal_ingot",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadow_cloth",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadowmetal_ingot",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "taintedmagic:voidwalker_sash"
+  },
+  "result": {
+    "id": "taintedmagic:voidwalker_sash"
+  }
+}

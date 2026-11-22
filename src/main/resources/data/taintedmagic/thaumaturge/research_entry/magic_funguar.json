@@ -1,0 +1,50 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.magic_funguar.title",
+  "parents": [
+    "taintedmagic:taintedmagic"
+  ],
+  "column": -3,
+  "row": 0,
+  "icons": [
+    "taintedmagic:magic_funguar"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.magic_funguar.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.magic_funguar.stage_1",
+      "recipes": [
+        "taintedmagic:arcane/magic_funguar"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

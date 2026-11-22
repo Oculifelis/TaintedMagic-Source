@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 26
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 34
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 26
+    }
+  ],
+  "catalyst": "thaumaturge:void_chest",
+  "components": [
+    "taintedmagic:shadowmetal_block",
+    "taintedmagic:shadowmetal_block",
+    "taintedmagic:shadowmetal_block",
+    "taintedmagic:shadowmetal_block",
+    "minecraft:gold_ingot",
+    "minecraft:leather"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "taintedmagic:shadow_fortress_armor"
+  },
+  "result": {
+    "id": "taintedmagic:shadow_fortress_chestplate"
+  }
+}

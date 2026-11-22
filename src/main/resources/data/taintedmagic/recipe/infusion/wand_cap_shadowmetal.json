@@ -1,0 +1,51 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 32
+    }
+  ],
+  "catalyst": "thaumaturge:wand_cap_void",
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "taintedmagic:shadowmetal_ingot",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadowmetal_ingot",
+    "thaumaturge:primordial_pearl",
+    "taintedmagic:shadowmetal_ingot",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadowmetal_ingot"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:cap_shadowmetal"
+  },
+  "result": {
+    "id": "taintedmagic:wand_cap_shadowmetal"
+  }
+}

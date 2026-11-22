@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    }
+  ],
+  "key": {
+    "C": "taintedmagic:shadow_cloth",
+    "S": "thaumaturge:salis_mundus"
+  },
+  "pattern": [
+    "CCC",
+    "CSC"
+  ],
+  "research": {
+    "entry": "taintedmagic:cap_shadowcloth",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:wand_cap_shadowcloth"
+  },
+  "vis": 40
+}

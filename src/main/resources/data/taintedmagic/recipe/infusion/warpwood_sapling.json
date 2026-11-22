@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 8
+    }
+  ],
+  "catalyst": "#minecraft:saplings",
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "thaumaturge:brain",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "thaumaturge:brain"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "taintedmagic:warpwood"
+  },
+  "result": {
+    "id": "taintedmagic:warpwood_sapling"
+  }
+}

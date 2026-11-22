@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 16
+    }
+  ],
+  "catalyst": "#taintedmagic:katanas",
+  "catalyst_patch": {
+    "taintedmagic:inscription": "fire"
+  },
+  "components": [
+    "thaumaturge:focus_1",
+    "minecraft:coal",
+    "minecraft:netherrack",
+    "minecraft:fire_charge",
+    "minecraft:blaze_powder",
+    "thaumaturge:alumentum"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:inscription_fire"
+  }
+}

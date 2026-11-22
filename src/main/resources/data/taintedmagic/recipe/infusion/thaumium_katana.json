@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 32
+    }
+  ],
+  "catalyst": "thaumaturge:thaumium_sword",
+  "components": [
+    "minecraft:obsidian",
+    "thaumaturge:ingot_thaumium",
+    "minecraft:gold_ingot",
+    "minecraft:emerald",
+    "minecraft:iron_ingot",
+    "thaumaturge:ingot_thaumium",
+    "minecraft:obsidian",
+    "thaumaturge:ingot_thaumium",
+    "minecraft:gold_ingot",
+    "minecraft:emerald",
+    "minecraft:iron_ingot",
+    "thaumaturge:ingot_thaumium"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "taintedmagic:thaumium_katana"
+  },
+  "result": {
+    "id": "taintedmagic:thaumium_katana"
+  }
+}

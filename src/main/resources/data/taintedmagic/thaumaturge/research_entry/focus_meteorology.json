@@ -1,0 +1,53 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.focus_meteorology.title",
+  "parents": [
+    "taintedmagic:creation",
+    "taintedmagic:focus_eldritch"
+  ],
+  "column": 2,
+  "row": 12,
+  "icons": [
+    "taintedmagic:textures/foci/meteorology.png"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.focus_meteorology.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ],
+      "obtain": [
+        {
+          "items": [
+            "taintedmagic:creation_shard"
+          ],
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.focus_meteorology.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

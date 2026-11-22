@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    }
+  ],
+  "key": {
+    "A": "thaumaturge:ingot_thaumium",
+    "B": "thaumaturge:ingot_void",
+    "C": "minecraft:diamond"
+  },
+  "pattern": [
+    "BAB",
+    "ACA",
+    "BAB"
+  ],
+  "research": {
+    "entry": "taintedmagic:thaumic_disassembler",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:thaumic_alloy"
+  },
+  "vis": 50
+}

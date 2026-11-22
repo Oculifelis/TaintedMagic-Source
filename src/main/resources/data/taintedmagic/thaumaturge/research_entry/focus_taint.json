@@ -1,0 +1,49 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.focus_taint.title",
+  "parents": [
+    "taintedmagic:taintedmagic",
+    "thaumaturge:base_auromancy"
+  ],
+  "column": -2,
+  "row": 8,
+  "icons": [
+    "taintedmagic:textures/foci/taint.png"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.focus_taint.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.focus_taint.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    }
+  ],
+  "complexity": 1
+}

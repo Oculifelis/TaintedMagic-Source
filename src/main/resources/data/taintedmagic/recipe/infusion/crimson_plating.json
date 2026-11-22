@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "minecraft:iron_ingot",
+  "components": [
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crystal_blood"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "taintedmagic:knight_robes"
+  },
+  "result": {
+    "id": "taintedmagic:crimson_plating"
+  }
+}

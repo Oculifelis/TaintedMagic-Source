@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 16
+    }
+  ],
+  "catalyst": "#taintedmagic:katanas",
+  "catalyst_patch": {
+    "taintedmagic:inscription": "undead"
+  },
+  "components": [
+    "thaumaturge:brain",
+    "minecraft:bone",
+    "minecraft:rotten_flesh",
+    "minecraft:fermented_spider_eye",
+    "thaumaturge:focus_1",
+    "thaumaturge:bath_salts"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:inscription_undead"
+  }
+}

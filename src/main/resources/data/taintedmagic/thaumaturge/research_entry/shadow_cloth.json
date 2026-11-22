@@ -1,0 +1,50 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.shadow_cloth.title",
+  "parents": [
+    "taintedmagic:shadowmetal"
+  ],
+  "column": -2,
+  "row": 3,
+  "icons": [
+    "taintedmagic:shadow_cloth"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.shadow_cloth.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.shadow_cloth.stage_1",
+      "recipes": [
+        "taintedmagic:arcane/shadow_cloth"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

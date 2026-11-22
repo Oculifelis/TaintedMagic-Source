@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 42
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 46
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 12
+    }
+  ],
+  "catalyst": "thaumaturge:void_sword",
+  "components": [
+    "minecraft:obsidian",
+    "thaumaturge:ingot_void",
+    "minecraft:gold_ingot",
+    "minecraft:emerald",
+    "minecraft:iron_ingot",
+    "thaumaturge:ingot_void",
+    "minecraft:obsidian",
+    "thaumaturge:ingot_void",
+    "minecraft:gold_ingot",
+    "minecraft:emerald",
+    "minecraft:iron_ingot",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "taintedmagic:voidmetal_katana"
+  },
+  "result": {
+    "id": "taintedmagic:voidmetal_katana"
+  }
+}

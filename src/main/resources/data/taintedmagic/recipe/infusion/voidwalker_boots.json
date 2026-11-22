@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 64
+    }
+  ],
+  "catalyst": "thaumaturge:traveller_boots",
+  "components": [
+    "thaumaturge:eldritch_eye",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadow_cloth",
+    "taintedmagic:shadowmetal_ingot",
+    "taintedmagic:shadow_cloth",
+    "thaumaturge:ingot_void",
+    "thaumaturge:eldritch_eye",
+    "thaumaturge:ingot_void",
+    "taintedmagic:shadow_cloth",
+    "taintedmagic:shadowmetal_ingot",
+    "taintedmagic:shadow_cloth",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:voidwalker_boots"
+  },
+  "result": {
+    "id": "taintedmagic:voidwalker_boots"
+  }
+}

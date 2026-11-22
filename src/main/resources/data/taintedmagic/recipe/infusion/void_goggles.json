@@ -1,0 +1,48 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 42
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 24
+    }
+  ],
+  "catalyst": "taintedmagic:warped_goggles",
+  "components": [
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:fabric",
+    "thaumaturge:fabric",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      }
+    }
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "taintedmagic:void_goggles"
+  },
+  "result": {
+    "id": "taintedmagic:void_goggles"
+  }
+}

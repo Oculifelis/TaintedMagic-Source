@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "F": "thaumaturge:fabric"
+  },
+  "pattern": [
+    "FFF",
+    "F F"
+  ],
+  "research": {
+    "entry": "taintedmagic:cap_cloth",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:wand_cap_cloth"
+  },
+  "vis": 10
+}

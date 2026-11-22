@@ -1,0 +1,40 @@
+{
+  "aspect": "thaumaturge:alienis",
+  "behavior": {
+    "type": "taintedmagic:afflict",
+    "damage_per_power": 3.0,
+    "effects": [
+      {
+        "effect": "minecraft:wither",
+        "seconds": 4
+      },
+      {
+        "effect": "minecraft:weakness",
+        "seconds": 6
+      }
+    ]
+  },
+  "color": 3939930,
+  "complexity": 4,
+  "fx": "thaumaturge:rift",
+  "icon": "taintedmagic:textures/foci/eldritch.png",
+  "research": {
+    "entry": "taintedmagic:focus_eldritch"
+  },
+  "settings": [
+    {
+      "key": "power",
+      "min": 1,
+      "max": 5,
+      "default": 1,
+      "complexity": 3.0
+    },
+    {
+      "key": "duration",
+      "min": 1,
+      "max": 4,
+      "default": 1,
+      "complexity": 1.0
+    }
+  ]
+}

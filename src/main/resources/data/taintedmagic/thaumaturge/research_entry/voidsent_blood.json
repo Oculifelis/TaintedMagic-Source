@@ -1,0 +1,60 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.voidsent_blood.title",
+  "parents": [
+    "taintedmagic:praetor_armor"
+  ],
+  "column": -4,
+  "row": 12,
+  "icons": [
+    "taintedmagic:voidsent_blood"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.voidsent_blood.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.voidsent_blood.stage_1",
+      "recipes": [
+        "taintedmagic:crucible/voidsent_blood",
+        "taintedmagic:voidtouched_crimson_robe_helm",
+        "taintedmagic:voidtouched_crimson_robe_chest",
+        "taintedmagic:voidtouched_crimson_robe_legs",
+        "taintedmagic:voidtouched_crimson_boots",
+        "taintedmagic:voidtouched_crimson_plate_helm",
+        "taintedmagic:voidtouched_crimson_plate_chest",
+        "taintedmagic:voidtouched_crimson_plate_legs",
+        "taintedmagic:voidtouched_crimson_praetor_helm",
+        "taintedmagic:voidtouched_crimson_praetor_chest",
+        "taintedmagic:voidtouched_crimson_praetor_legs"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

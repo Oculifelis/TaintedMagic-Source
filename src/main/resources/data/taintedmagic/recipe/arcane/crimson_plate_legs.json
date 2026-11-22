@@ -1,0 +1,46 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "A": "taintedmagic:crimson_plating",
+    "B": "taintedmagic:crimson_cloth"
+  },
+  "pattern": [
+    "AAA",
+    "A A",
+    "B B"
+  ],
+  "research": {
+    "entry": "taintedmagic:knight_robes",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:crimson_plate_legs"
+  },
+  "vis": 25
+}

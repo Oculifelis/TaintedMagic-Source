@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:goggles_revealing",
+  "components": [
+    "taintedmagic:shadowmetal_ingot",
+    "taintedmagic:shadowmetal_ingot"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "taintedmagic:warped_goggles"
+  },
+  "result": {
+    "id": "taintedmagic:warped_goggles"
+  }
+}

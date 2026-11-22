@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:aer",
+  "behavior": {
+    "type": "taintedmagic:weather",
+    "duration_ticks": 12000
+  },
+  "color": 8366296,
+  "complexity": 4,
+  "fx": "thaumaturge:gust",
+  "icon": "taintedmagic:textures/foci/meteorology.png",
+  "research": {
+    "entry": "taintedmagic:focus_meteorology"
+  },
+  "settings": [],
+  "max_per_spell": 1,
+  "vis": 20.0
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "equipment",
+  "input": "thaumaturge:crimson_praetor_helm",
+  "material": "taintedmagic:voidsent_blood",
+  "result": {
+    "id": "thaumaturge:crimson_praetor_helm",
+    "components": {
+      "taintedmagic:self_repair": 20
+    }
+  }
+}

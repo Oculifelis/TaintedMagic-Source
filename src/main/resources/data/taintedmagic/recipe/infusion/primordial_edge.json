@@ -1,0 +1,42 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 65
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 46
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 60
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 56
+    }
+  ],
+  "catalyst": "thaumaturge:void_sword",
+  "components": [
+    "thaumaturge:primal_crusher",
+    "thaumaturge:crystal_aer",
+    "thaumaturge:crystal_aqua",
+    "thaumaturge:crystal_ignis",
+    "thaumaturge:crystal_ordo",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:crystal_terra"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:primordial_edge"
+  },
+  "result": {
+    "id": "taintedmagic:primordial_edge"
+  }
+}

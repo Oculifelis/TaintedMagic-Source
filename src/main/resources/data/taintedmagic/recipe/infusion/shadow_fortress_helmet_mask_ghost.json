@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "taintedmagic:shadow_fortress_helmet",
+  "catalyst_patch": {
+    "thaumaturge:fortress_mask": 1
+  },
+  "components": [
+    "minecraft:bone_meal",
+    "minecraft:iron_ingot",
+    "minecraft:leather",
+    "minecraft:poisonous_potato",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:iron_ingot"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:fortress_trappings"
+  }
+}

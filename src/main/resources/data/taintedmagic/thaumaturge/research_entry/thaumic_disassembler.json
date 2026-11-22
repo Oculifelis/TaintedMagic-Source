@@ -1,0 +1,52 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.thaumic_disassembler.title",
+  "parents": [
+    "taintedmagic:taintedmagic",
+    "thaumaturge:elemental_tools"
+  ],
+  "column": 8,
+  "row": 14,
+  "icons": [
+    "taintedmagic:thaumic_disassembler"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.thaumic_disassembler.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.thaumic_disassembler.stage_1",
+      "recipes": [
+        "taintedmagic:arcane/thaumic_alloy",
+        "taintedmagic:infusion/thaumic_disassembler"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

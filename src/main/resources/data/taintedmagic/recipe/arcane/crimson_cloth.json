@@ -1,0 +1,46 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "B": "taintedmagic:crystal_blood",
+    "F": "thaumaturge:fabric"
+  },
+  "pattern": [
+    " B ",
+    "BFB",
+    " B "
+  ],
+  "research": {
+    "entry": "taintedmagic:crimson_cloth",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:crimson_cloth"
+  },
+  "vis": 15
+}

@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "A": "taintedmagic:crimson_cloth",
+    "B": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "AAA",
+    "ABA"
+  ],
+  "research": {
+    "entry": "taintedmagic:crimson_robes",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:crimson_robe_helm"
+  },
+  "vis": 25
+}

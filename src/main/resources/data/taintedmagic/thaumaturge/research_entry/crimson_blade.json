@@ -1,0 +1,51 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.crimson_blade.title",
+  "parents": [
+    "taintedmagic:crystal_dagger",
+    "thaumaturge:crimson_rites"
+  ],
+  "column": 4,
+  "row": 16,
+  "icons": [
+    "thaumaturge:crimson_blade"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.crimson_blade.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.crimson_blade.stage_1",
+      "recipes": [
+        "taintedmagic:infusion/crimson_blade"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

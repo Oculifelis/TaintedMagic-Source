@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Pelz (original Tainted Magic design), Oculifelis (Thaumaturge reimplementation)"
+credits="Tainted Magic was designed by Pelz for Thaumcraft 4 and maintained by the GTNH team. Its source is CC BY-NC-ND 4.0, so this is a clean reimplementation of its mechanics: no original code, textures or text. Thaumaturge by Leclowndu93150 and contributors."
+description='''
+A clean reimplementation of Tainted Magic (Thaumcraft 4 addon) for Thaumaturge on NeoForge 26.1.2.
+Phase 1: the Tainted Magic research tab, Shadow Ore, Shadowmetal, Shadow-imbued Cloth and the Shadowcloth wand cap.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"

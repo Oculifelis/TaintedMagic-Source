@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    }
+  ],
+  "catalyst": "taintedmagic:thaumic_alloy",
+  "components": [
+    "thaumaturge:void_pickaxe",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:void_shovel",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:void_sword",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:void_axe",
+    "thaumaturge:ingot_thaumium"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "taintedmagic:thaumic_disassembler"
+  },
+  "result": {
+    "id": "taintedmagic:thaumic_disassembler"
+  }
+}

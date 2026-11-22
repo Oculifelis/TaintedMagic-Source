@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 32
+    }
+  ],
+  "catalyst": "thaumaturge:void_sword",
+  "components": [
+    "taintedmagic:crystal_dagger",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crimson_plating",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crimson_cloth",
+    "taintedmagic:crystal_blood",
+    "taintedmagic:crimson_plating",
+    "taintedmagic:crystal_blood"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "taintedmagic:crimson_blade"
+  },
+  "result": {
+    "id": "thaumaturge:crimson_blade"
+  }
+}

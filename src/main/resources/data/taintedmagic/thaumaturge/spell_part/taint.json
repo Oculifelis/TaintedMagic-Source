@@ -1,0 +1,47 @@
+{
+  "aspect": "thaumaturge:vitium",
+  "behavior": {
+    "type": "taintedmagic:afflict",
+    "damage_per_power": 2.0,
+    "effects": [
+      {
+        "effect": "thaumaturge:flux_taint",
+        "seconds": 5
+      },
+      {
+        "effect": "minecraft:poison",
+        "seconds": 3
+      }
+    ]
+  },
+  "color": 9322408,
+  "complexity": 3,
+  "fx": "thaumaturge:flux",
+  "icon": "taintedmagic:textures/foci/taint.png",
+  "research": {
+    "entry": "taintedmagic:focus_taint"
+  },
+  "settings": [
+    {
+      "key": "power",
+      "min": 1,
+      "max": 5,
+      "default": 1,
+      "complexity": 3.0
+    },
+    {
+      "key": "duration",
+      "min": 1,
+      "max": 4,
+      "default": 1,
+      "complexity": 1.0
+    },
+    {
+      "key": "amplify",
+      "min": 0,
+      "max": 2,
+      "default": 0,
+      "complexity": 2.0
+    }
+  ]
+}

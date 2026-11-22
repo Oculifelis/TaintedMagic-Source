@@ -1,0 +1,35 @@
+{
+  "aspect": "thaumaturge:vitium",
+  "behavior": {
+    "type": "taintedmagic:shockwave",
+    "damage_per_power": 2.5,
+    "base_radius": 10.0,
+    "radius_per_level": 2.0,
+    "knockback": 1.5,
+    "sound": "taintedmagic:shockwave"
+  },
+  "color": 6958218,
+  "complexity": 5,
+  "fx": "thaumaturge:flux",
+  "icon": "taintedmagic:textures/foci/tainted_shockwave.png",
+  "research": {
+    "entry": "taintedmagic:focus_tainted_blast"
+  },
+  "settings": [
+    {
+      "key": "power",
+      "min": 1,
+      "max": 5,
+      "default": 1,
+      "complexity": 3.0
+    },
+    {
+      "key": "radius",
+      "min": 0,
+      "max": 3,
+      "default": 0,
+      "complexity": 2.0
+    }
+  ],
+  "max_per_spell": 1
+}

@@ -1,0 +1,28 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "minecraft:stone",
+  "research": {
+    "entry": "taintedmagic:shadowmetal"
+  },
+  "result": {
+    "id": "taintedmagic:shadow_ore"
+  }
+}

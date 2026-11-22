@@ -1,0 +1,57 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.shadowmetal.title",
+  "parents": [
+    "taintedmagic:taintedmagic"
+  ],
+  "column": 0,
+  "row": 2,
+  "icons": [
+    "taintedmagic:shadowmetal_ingot"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.shadowmetal.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.shadowmetal.stage_1",
+      "recipes": [
+        "taintedmagic:crucible/shadow_ore",
+        "taintedmagic:shadowmetal_ingot_from_ore",
+        "taintedmagic:shadowmetal_block",
+        "taintedmagic:shadowmetal_ingot_from_block"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

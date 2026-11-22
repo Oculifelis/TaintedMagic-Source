@@ -1,0 +1,22 @@
+{
+  "warpwood_core": {
+    "base_interval_ticks": 200,
+    "min_interval_ticks": 50,
+    "vis_per_refill": 1
+  },
+  "fortress_set": {
+    "armor_per_piece": 1,
+    "toughness_per_piece": 1,
+    "mask_bonus": 1
+  },
+  "mask": {
+    "ghost_chance_divisor": 10,
+    "ghost_wither_ticks": 80,
+    "fiend_chance_divisor": 12,
+    "fiend_heal": 1,
+    "devil_ward_chance": 0.5
+  },
+  "voidwalker": {
+    "sash_speed_bonus": 0.8
+  }
+}

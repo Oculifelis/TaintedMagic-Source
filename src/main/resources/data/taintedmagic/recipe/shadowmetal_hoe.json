@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AA",
+    " B",
+    " B"
+  ],
+  "key": {
+    "A": "taintedmagic:shadowmetal_ingot",
+    "B": "minecraft:stick"
+  },
+  "result": {
+    "id": "taintedmagic:shadowmetal_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "taintedmagic:crystal_blood",
+  "research": {
+    "entry": "taintedmagic:voidsent_blood"
+  },
+  "result": {
+    "id": "taintedmagic:voidsent_blood"
+  }
+}

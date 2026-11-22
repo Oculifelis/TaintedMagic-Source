@@ -1,0 +1,44 @@
+{
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "ingredients": [
+    "thaumaturge:vishroom",
+    "thaumaturge:essentia_crystal",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:blaze_powder"
+  ],
+  "research": {
+    "entry": "taintedmagic:magic_funguar",
+    "stage": 0
+  },
+  "result": {
+    "id": "taintedmagic:magic_funguar"
+  },
+  "vis": 6
+}

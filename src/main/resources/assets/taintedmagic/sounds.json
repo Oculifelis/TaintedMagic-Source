@@ -1,0 +1,14 @@
+{
+  "shard": {
+    "subtitle": "subtitles.taintedmagic.shard",
+    "sounds": [
+      "taintedmagic:shard"
+    ]
+  },
+  "shockwave": {
+    "subtitle": "subtitles.taintedmagic.shockwave",
+    "sounds": [
+      "taintedmagic:shockwave"
+    ]
+  }
+}

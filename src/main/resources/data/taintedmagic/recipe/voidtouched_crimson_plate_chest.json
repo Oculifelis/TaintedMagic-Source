@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "equipment",
+  "input": "thaumaturge:crimson_plate_chest",
+  "material": "taintedmagic:voidsent_blood",
+  "result": {
+    "id": "thaumaturge:crimson_plate_chest",
+    "components": {
+      "taintedmagic:self_repair": 20
+    }
+  }
+}

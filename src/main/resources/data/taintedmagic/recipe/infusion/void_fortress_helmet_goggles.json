@@ -1,0 +1,29 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "taintedmagic:void_fortress_helmet",
+  "catalyst_patch": {
+    "thaumaturge:goggles_upgrade": {}
+  },
+  "components": [
+    "#c:slime_balls",
+    "thaumaturge:goggles_revealing"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "taintedmagic:fortress_trappings"
+  }
+}

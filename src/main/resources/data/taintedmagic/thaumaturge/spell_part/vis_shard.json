@@ -1,0 +1,25 @@
+{
+  "aspect": "thaumaturge:praecantatio",
+  "behavior": {
+    "type": "taintedmagic:afflict",
+    "damage_per_power": 2.5,
+    "effects": [],
+    "sound": "taintedmagic:shard"
+  },
+  "color": 13148400,
+  "complexity": 2,
+  "fx": "thaumaturge:primal",
+  "icon": "taintedmagic:textures/foci/vis_shard.png",
+  "research": {
+    "entry": "taintedmagic:focus_vis_shard"
+  },
+  "settings": [
+    {
+      "key": "power",
+      "min": 1,
+      "max": 5,
+      "default": 1,
+      "complexity": 3.0
+    }
+  ]
+}

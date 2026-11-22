@@ -1,0 +1,52 @@
+{
+  "category": "taintedmagic:taintedmagic",
+  "name": "research.taintedmagic.praetor_armor.title",
+  "parents": [
+    "taintedmagic:knight_robes"
+  ],
+  "column": -6,
+  "row": 11,
+  "icons": [
+    "thaumaturge:crimson_praetor_chest"
+  ],
+  "stages": [
+    {
+      "text": "research.taintedmagic.praetor_armor.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.taintedmagic.praetor_armor.stage_1",
+      "recipes": [
+        "taintedmagic:infusion/crimson_praetor_helm",
+        "taintedmagic:infusion/crimson_praetor_chest",
+        "taintedmagic:infusion/crimson_praetor_legs"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    }
+  ],
+  "complexity": 3
+}

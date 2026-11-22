@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "taintedmagic:shadow_fortress_helmet",
+  "catalyst_patch": {
+    "thaumaturge:fortress_mask": 0
+  },
+  "components": [
+    "minecraft:black_dye",
+    "minecraft:iron_ingot",
+    "minecraft:leather",
+    "thaumaturge:shimmerleaf",
+    "thaumaturge:brain",
+    "minecraft:iron_ingot"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "taintedmagic:fortress_trappings"
+  }
+}
