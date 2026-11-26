@@ -18,7 +18,7 @@
       "amount": 16
     }
   ],
-  "catalyst": "taintedmagic:thaumic_alloy",
+  "catalyst": "#c:ingots/thaumic_alloy",
   "components": [
     "thaumaturge:void_pickaxe",
     "thaumaturge:ingot_thaumium",
